@@ -1,2 +1,2 @@
-# decorator-
+# decorator
 decorator for plugins

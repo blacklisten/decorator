@@ -1,0 +1,21 @@
+{
+  "name": "decorator",
+  "version": "1.0.0",
+  "description": "decorator for plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacklisten/decorator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blacklisten/decorator/issues"
+  },
+  "homepage": "https://github.com/blacklisten/decorator#readme",
+  "devDependencies": {}
+}
