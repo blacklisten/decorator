@@ -23,7 +23,7 @@ export default ({
   options
 }: {errorFunc?: (error: any) => void, options?: OptionsInterface}) => (target: any, key: PropertyKey, descriptor: PropertyDescriptor & ThisType<any>): any => {
   const method = descriptor.value
-  descriptor.value = async (...args: any) => {
+  descriptor.value = async function(...args: any) {
     try {
       await method.apply(this, args)
     } catch (error) {

@@ -173,9 +173,7 @@ wait = 300 // default 300
 
 ## FAQ
 
-1. 'this' implicitly has type 'any' because it does not have a type annotation.
-
-tsconfig.json =>  "noImplicitThis": false
+1. 'this' implicitly has type 'any' because it does not have a type annotation. tsconfig.json =>  "noImplicitThis": false
 
 2. 当@Loading与@AutoCatch同时使用，只会调用后者的catch
 

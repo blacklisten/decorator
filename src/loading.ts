@@ -9,7 +9,7 @@ interface loadingInterface {
  */
 export default ({loadingFun, errorFunc, isConsole}: loadingInterface) => (target: any, key: PropertyKey, descriptor: PropertyDescriptor & ThisType<any>): any => {
   const method = descriptor.value
-  descriptor.value = async (...args: any) => {
+  descriptor.value = async function(...args: any) {
     loadingFun.init()
     try {
       await method.apply(this, args)

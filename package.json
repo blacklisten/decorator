@@ -1,7 +1,7 @@
 {
 
   "name": "va-decorator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "decorator for plugins",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
